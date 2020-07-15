@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        20
+    </div>
+    <script>
+        //1. 点击div,输出是什么?
+        // var obj = {
+        //     click: function() {
+        //         console.log(this)
+        //     }
+        // }
+        document.querySelector('.box').addEventListener('click', obj.click)
+
+        //2. 
+        // document.querySelector('.box').onclick = function() {
+        //     console.log(20)
+        // }
+
+        // document.querySelector('.box').onclick = function() {
+        //     console.log(30)
+        // }
+        
+        //3. 
+        // var a = 10
+        // function fn() {
+        //     console.log(a)
+        // }
+        // function main() {
+        //     var a = 20
+        //     fn()
+        // }
+        // main()
+
+        //4.
+        // console.log(b)
+        // b = 20
+    </script>
+</body>
+</html>
